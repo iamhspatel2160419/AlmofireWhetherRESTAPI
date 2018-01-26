@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3BFD104F3BDE92E1980E4D /* Pods_AlmofireWhetherRESTAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AE51512E89E0E010C3AC10 /* Pods_AlmofireWhetherRESTAPI.framework */; };
 		E0AF6C4E201B5687006D9657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF6C4D201B5687006D9657 /* AppDelegate.swift */; };
-		E0AF6C50201B5688006D9657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF6C4F201B5688006D9657 /* ViewController.swift */; };
 		E0AF6C53201B5688006D9657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AF6C51201B5688006D9657 /* Main.storyboard */; };
 		E0AF6C55201B5688006D9657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AF6C54201B5688006D9657 /* Assets.xcassets */; };
 		E0AF6C58201B5688006D9657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AF6C56201B5688006D9657 /* LaunchScreen.storyboard */; };
+		E0AF6C69201B6E67006D9657 /* CurrentWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF6C68201B6E66006D9657 /* CurrentWeatherViewController.swift */; };
+		E0AF6C6C201B7270006D9657 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF6C6A201B726F006D9657 /* ForecastService.swift */; };
+		E0AF6C6D201B7270006D9657 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF6C6B201B726F006D9657 /* CurrentWeather.swift */; };
+		E0AF6C6F201B78C5006D9657 /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 06.53.34.png in Resources */ = {isa = PBXBuildFile; fileRef = E0AF6C6E201B78C3006D9657 /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 06.53.34.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0727C8360E5B0AA6C20FBE /* Pods-AlmofireWhetherRESTAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlmofireWhetherRESTAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlmofireWhetherRESTAPI/Pods-AlmofireWhetherRESTAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		59AE51512E89E0E010C3AC10 /* Pods_AlmofireWhetherRESTAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlmofireWhetherRESTAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AF6C4A201B5687006D9657 /* AlmofireWhetherRESTAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlmofireWhetherRESTAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AF6C4D201B5687006D9657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0AF6C4F201B5688006D9657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0AF6C52201B5688006D9657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0AF6C54201B5688006D9657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0AF6C57201B5688006D9657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0AF6C59201B5688006D9657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AF6C68201B6E66006D9657 /* CurrentWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewController.swift; sourceTree = "<group>"; };
+		E0AF6C6A201B726F006D9657 /* ForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
+		E0AF6C6B201B726F006D9657 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		E0AF6C6E201B78C3006D9657 /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 06.53.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2018-01-26 at 06.53.34.png"; sourceTree = "<group>"; };
+		E8A547067DD1B008F7FD19D8 /* Pods-AlmofireWhetherRESTAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlmofireWhetherRESTAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlmofireWhetherRESTAPI/Pods-AlmofireWhetherRESTAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3BFD104F3BDE92E1980E4D /* Pods_AlmofireWhetherRESTAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A0B07F16C8B55F5739E1B58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E0727C8360E5B0AA6C20FBE /* Pods-AlmofireWhetherRESTAPI.debug.xcconfig */,
+				E8A547067DD1B008F7FD19D8 /* Pods-AlmofireWhetherRESTAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7D8B5C443CE2327E7BD9D93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59AE51512E89E0E010C3AC10 /* Pods_AlmofireWhetherRESTAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0AF6C41201B5687006D9657 = {
 			isa = PBXGroup;
 			children = (
 				E0AF6C4C201B5687006D9657 /* AlmofireWhetherRESTAPI */,
 				E0AF6C4B201B5687006D9657 /* Products */,
+				6A0B07F16C8B55F5739E1B58 /* Pods */,
+				B7D8B5C443CE2327E7BD9D93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +84,11 @@
 		E0AF6C4C201B5687006D9657 /* AlmofireWhetherRESTAPI */ = {
 			isa = PBXGroup;
 			children = (
+				E0AF6C68201B6E66006D9657 /* CurrentWeatherViewController.swift */,
+				E0AF6C6B201B726F006D9657 /* CurrentWeather.swift */,
+				E0AF6C6A201B726F006D9657 /* ForecastService.swift */,
 				E0AF6C4D201B5687006D9657 /* AppDelegate.swift */,
-				E0AF6C4F201B5688006D9657 /* ViewController.swift */,
+				E0AF6C6E201B78C3006D9657 /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 06.53.34.png */,
 				E0AF6C51201B5688006D9657 /* Main.storyboard */,
 				E0AF6C54201B5688006D9657 /* Assets.xcassets */,
 				E0AF6C56201B5688006D9657 /* LaunchScreen.storyboard */,
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0AF6C5C201B5688006D9657 /* Build configuration list for PBXNativeTarget "AlmofireWhetherRESTAPI" */;
 			buildPhases = (
+				7D899FA444869026C69768F6 /* [CP] Check Pods Manifest.lock */,
 				E0AF6C46201B5687006D9657 /* Sources */,
 				E0AF6C47201B5687006D9657 /* Frameworks */,
 				E0AF6C48201B5687006D9657 /* Resources */,
+				0C4D1CFBB33DE13B4370CF00 /* [CP] Embed Pods Frameworks */,
+				B7DEB74336AC1FCE97FDA812 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0AF6C58201B5688006D9657 /* LaunchScreen.storyboard in Resources */,
+				E0AF6C6F201B78C5006D9657 /* Simulator Screen Shot - iPhone 6s - 2018-01-26 at 06.53.34.png in Resources */,
 				E0AF6C55201B5688006D9657 /* Assets.xcassets in Resources */,
 				E0AF6C53201B5688006D9657 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +168,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C4D1CFBB33DE13B4370CF00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlmofireWhetherRESTAPI/Pods-AlmofireWhetherRESTAPI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlmofireWhetherRESTAPI/Pods-AlmofireWhetherRESTAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D899FA444869026C69768F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlmofireWhetherRESTAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DEB74336AC1FCE97FDA812 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlmofireWhetherRESTAPI/Pods-AlmofireWhetherRESTAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0AF6C46201B5687006D9657 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AF6C50201B5688006D9657 /* ViewController.swift in Sources */,
 				E0AF6C4E201B5687006D9657 /* AppDelegate.swift in Sources */,
+				E0AF6C6C201B7270006D9657 /* ForecastService.swift in Sources */,
+				E0AF6C6D201B7270006D9657 /* CurrentWeather.swift in Sources */,
+				E0AF6C69201B6E67006D9657 /* CurrentWeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +365,7 @@
 		};
 		E0AF6C5D201B5688006D9657 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0727C8360E5B0AA6C20FBE /* Pods-AlmofireWhetherRESTAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +380,7 @@
 		};
 		E0AF6C5E201B5688006D9657 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A547067DD1B008F7FD19D8 /* Pods-AlmofireWhetherRESTAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
